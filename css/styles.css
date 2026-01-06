@@ -1,0 +1,184 @@
+body
+{
+ font-family: 'Montserrat';
+}
+
+#title{
+background-color:#ff4c68;
+color:#fff;
+}
+
+.container-fluid{
+    padding:3% 15% 7%;
+}
+
+h1 {
+    font-variation-settings: "wght" 900;
+    font-family: 'Montserrat', sans-serif;
+    line-height:1.5;
+}
+
+h2{
+    font-family:"Montserrat";
+    font-variation-settings: "wght" 700;
+    font-size:3rem;
+}
+
+h3{
+font-family:"Montserrat";
+font-variation-settings: "wght" 600;
+font-size:1.5rem;
+
+
+}
+.navbar-brand{
+font-family:"Ubuntu";
+font-size:2.5rem;
+font-variation-settings: "wght" 600;
+}
+
+.navbar{
+padding:0 0 4.5rem;
+}
+
+.nav-item{
+padding: 0 18px;
+}
+
+.nav-link{
+font-size:1.2rem;
+font-family:"Monteserrat-Light"
+}
+
+.download-button{
+margin: 5% 3% 5% 0;
+}
+
+.title-image{
+width:20%;
+transform:rotate(25deg);
+position:absolute;
+right:30%;
+}
+
+/* Features */
+#features{
+margin:7% 15%;
+background-color:#fff;
+position:relative;
+
+}
+
+
+.feature-para{
+color:#8f8f8f;
+}
+
+.feature-box{
+text-align:center;
+padding:5%;
+}
+
+
+.feature-img{
+color:#ef8172;
+margin-bottom:1rem;
+}
+
+.feature-img:hover{
+    color:#ff4c68;
+}
+
+/*testimonials */
+
+#testimonials{
+
+
+text-align:center;
+background-color:#ef8172;
+color:#fff;
+
+}
+
+.testimonials-image{
+
+width:20%;
+border-radius:100%;
+margin:20px;
+}
+
+/* press */
+#press{
+    background-color:#ef8172;
+    padding-bottom:5%;
+    text-align:center;
+}
+
+.press-img{
+    width:15%;
+    padding:20px 20px 50px;
+
+
+}
+#carouselExampleControls{
+    padding:5% 15%;
+}
+
+
+/*pricing*/
+
+#pricing{
+padding:100px;
+text-align:center;
+}
+.pricing-col{
+    padding:3% 5%;
+}
+/*--------------------------------Media Query---------------------*/
+@media (max-width:1028px) {
+    .title-image{
+    position:static;
+    width:60%;
+    transform:rotate(0deg);
+    }
+    #title{
+    text-align:center;
+    }
+}
+
+
+/*-------------------------------call to action-------------------------*/
+
+#cta{
+    background-color:#ff4c68;
+    padding:7% 15%;
+    text-align:center;
+    color:#fff;
+
+}
+.cta-h3{
+    font-family:"Montserrat";
+    font-variation-settings: "wght" 900;
+    font-size:3.5rem;
+    font-color:#fff;
+    padding-bottom:5%;
+    align:center;
+
+}
+
+
+
+/*--------------------------footer-----------*/
+
+#footer{
+    background-color:#fff;
+    padding:7% 10%;
+    text-align:center;
+}
+.footer-para{
+    padding-top:2%;
+}
+.footer-icon{
+    padding:1%;
+
+}
